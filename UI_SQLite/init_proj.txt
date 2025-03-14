@@ -1,0 +1,39 @@
+1. pip instan pyside6
+To update, run: python.exe -m pip install --upgrade pip
+2. в .venv pyside6 есть qt designer
+3. для добавленя ресурсов:
+    создать папку с ресурсами rec-rc.qrc
+    создать папку с иконками icons и вложить svg иконки
+    в QT в ресурсах открыть папку rec... и создать icons+ добавить иконки
+
+4. Создание кода программы для виджета
+pyside6-uic main.ui -0 main.py
+pyside6-uic enother.ui -o enother.py
+
+5. преобразовать файлы ресурсов
+pyside6-rcc rec-rc.qrc -o rec_rc.py
+
+
+
+5. подключить остальные окна + работа с ними
+
+
+
+// выравнивание sql text edit
+# Создание вертикального компоновщика
+        self.verticalLayout = QVBoxLayout()
+        self.verticalLayout.setObjectName(u"verticalLayout")
+        self.TabWidget = QTabWidget(self.frame)
+        self.TabWidget.setObjectName(u"TabWidget")
+        sizePolicy.setHeightForWidth(self.TabWidget.sizePolicy().hasHeightForWidth())
+        self.TabWidget.setSizePolicy(sizePolicy)
+        self.tab = QWidget()
+        self.tab.setObjectName(u"tab")
+        sizePolicy.setHeightForWidth(self.tab.sizePolicy().hasHeightForWidth())
+        self.tab.setSizePolicy(sizePolicy)
+        self.QueryText_1 = QTextEdit(self.tab)
+        self.QueryText_1.setObjectName(u"QueryText_1")
+        tab_layout = QVBoxLayout(self.tab)  # Используем QVBoxLayout для tab
+        tab_layout.addWidget(self.QueryText_1)
+        self.QueryText_1.setPlaceholderText("Введите SQL-запрос здесь")
+        self.TabWidget.addTab(self.tab, "")

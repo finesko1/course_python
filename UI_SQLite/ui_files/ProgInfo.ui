@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog</class>
+ <widget class="QDialog" name="dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>866</width>
+    <height>725</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>О приложении</string>
+  </property>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>311</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="rec-rc.qrc">:/images/images/dev-background-light.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QFrame" name="info">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>120</y>
+     <width>621</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item alignment="">
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <italic>true</italic>
+        <bold>false</bold>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Пользовательский интерфейс для работы с базой данных SQLite</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Название приложения: SQLite</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Основные функции:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="textEdit_2">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Shape::WinPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Shadow::Plain</enum>
+        </property>
+        <property name="sizeAdjustPolicy">
+         <enum>QAbstractScrollArea::SizeAdjustPolicy::AdjustToContents</enum>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'DDG_ProximaNova','DDG_ProximaNova_UI_0','DDG_ProximaNova_UI_1','DDG_ProximaNova_UI_2','DDG_ProximaNova_UI_3','DDG_ProximaNova_UI_4','DDG_ProximaNova_UI_5','DDG_ProximaNova_UI_6','Proxima Nova','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','Noto Sans','sans-serif'; font-size:14px; font-weight:700; color:#222222; background-color:#ffffff;&quot;&gt;Создание и редактирование баз данных:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'DDG_ProximaNova','DDG_ProximaNova_UI_0','DDG_ProximaNova_UI_1','DDG_ProximaNova_UI_2','DDG_ProximaNova_UI_3','DDG_ProximaNova_UI_4','DDG_ProximaNova_UI_5','DDG_ProximaNova_UI_6','Proxima Nova','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','Noto Sans','sans-serif'; font-size:14px; color:#222222; background-color:#ffffff;&quot;&gt;    - легко создавайте новые базы данных и редактируйте существующие при помощи простого в использовании интерфейса.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'DDG_ProximaNova','DDG_ProximaNova_UI_0','DDG_ProximaNova_UI_1','DDG_ProximaNova_UI_2','DDG_ProximaNova_UI_3','DDG_ProximaNova_UI_4','DDG_ProximaNova_UI_5','DDG_ProximaNova_UI_6','Proxima Nova','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','Noto Sans','sans-serif'; font-size:14px; font-weight:700; color:#222222; background-color:#ffffff;&quot;&gt;Управление таблицами:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'DDG_ProximaNova','DDG_ProximaNova_UI_0','DDG_ProximaNova_UI_1','DDG_ProximaNova_UI_2','DDG_ProximaNova_UI_3','DDG_ProximaNova_UI_4','DDG_ProximaNova_UI_5','DDG_ProximaNova_UI_6','Proxima Nova','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','Noto Sans','sans-serif'; font-size:14px; color:#222222; background-color:#ffffff;&quot;&gt;    - добавляйте, удаляйте и изменяйте таблицы, а также настраивайте их структуру, включая типы данных и ограничения.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'DDG_ProximaNova','DDG_ProximaNova_UI_0','DDG_ProximaNova_UI_1','DDG_ProximaNova_UI_2','DDG_ProximaNova_UI_3','DDG_ProximaNova_UI_4','DDG_ProximaNova_UI_5','DDG_ProximaNova_UI_6','Proxima Nova','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','Noto Sans','sans-serif'; font-size:14px; font-weight:700; color:#222222; background-color:#ffffff;&quot;&gt;Интерактивность:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'DDG_ProximaNova','DDG_ProximaNova_UI_0','DDG_ProximaNova_UI_1','DDG_ProximaNova_UI_2','DDG_ProximaNova_UI_3','DDG_ProximaNova_UI_4','DDG_ProximaNova_UI_5','DDG_ProximaNova_UI_6','Proxima Nova','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','Noto Sans','sans-serif'; font-size:14px; color:#222222; background-color:#ffffff;&quot;&gt;    - наблюдайте за изменениями в базе данных в реальном времени. Содержимое динамически обновляется во избежание ошибок.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'DDG_ProximaNova','DDG_ProximaNova_UI_0','DDG_ProximaNova_UI_1','DDG_ProximaNova_UI_2','DDG_ProximaNova_UI_3','DDG_ProximaNova_UI_4','DDG_ProximaNova_UI_5','DDG_ProximaNova_UI_6','Proxima Nova','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','Noto Sans','sans-serif'; font-size:14px; font-weight:700; color:#222222; background-color:#ffffff;&quot;&gt;Выполнение SQL-запросов:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'DDG_ProximaNova','DDG_ProximaNova_UI_0','DDG_ProximaNova_UI_1','DDG_ProximaNova_UI_2','DDG_ProximaNova_UI_3','DDG_ProximaNova_UI_4','DDG_ProximaNova_UI_5','DDG_ProximaNova_UI_6','Proxima Nova','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','Noto Sans','sans-serif'; font-size:14px; color:#222222; background-color:#ffffff;&quot;&gt;    - интерактивный редактор SQL с подсветкой синтаксиса позволяет писать и выполнять запросы в реальном времени, что упрощает работу с данными.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:150%; font-family:'DDG_ProximaNova','DDG_ProximaNova_UI_0','DDG_ProximaNova_UI_1','DDG_ProximaNova_UI_2','DDG_ProximaNova_UI_3','DDG_ProximaNova_UI_4','DDG_ProximaNova_UI_5','DDG_ProximaNova_UI_6','Proxima Nova','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','Noto Sans','sans-serif'; font-size:14px; color:#222222; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="sizeConstraint">
+       <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Описание:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="textEdit">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Shape::WinPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Shadow::Plain</enum>
+        </property>
+        <property name="sizeAdjustPolicy">
+         <enum>QAbstractScrollArea::SizeAdjustPolicy::AdjustToContents</enum>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    SQLite — это мощный и интуитивно понятный графический интерфейс для работы с базами данных SQLite. Приложение предназначено как для новичков, так и для опытных пользователей, предоставляя все необходимые инструменты для эффективного управления данными.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="rec-rc.qrc"/>
+  <include location="C:/Program Files/JetBrains/PyCharm 2024.3/bin/rec-rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

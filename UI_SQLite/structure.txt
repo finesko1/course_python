@@ -1,0 +1,36 @@
+SQLite/
+|----databases/
+|	 |----database_1.sqlite
+|	 |----database_2.db
+|----icons/
+|	 |----add.svg
+|	 |----del.svg
+|	 |----edit.svg
+|----images/
+|	 |----dev-background.jpg
+|	 |----prog-background.jpg
+|----ui_files/
+|	 |----SQLite.ui
+|	 |----SQLite_2.ui
+|	 |----DevInfo.ui
+|	 |----ProgInfo.ui
+|	 |----CreateDatabase.ui
+|	 |----Settings.ui
+|----.venv/
+|----main.py
+|----CreateDatabaseDialog.py
+|----CreateDatabase.py
+|----AddTableDialog.py
+|----SQlite2.py
+|----EditTableDialog.py
+|----ProgInfoDialog.py
+|----ProgInfo.py
+|----DevInfoDialog.py
+|----DevInfo.py
+|----SettingsDigalog.py
+|----Settings.py
+|----AutoCompleter.py
+|----SQLHighlighter.py
+|----rec_rc.py
+|----rec-rc.qrc
+|----TestWorkWithDatabase.py
